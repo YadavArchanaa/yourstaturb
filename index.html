@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <title>Your Startup</title>
+    <link rel="Stylesheet" href="Style.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <img src="logo1.jpg" />
+        <a href="#home"></a>
+        <ul id="ul">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+          <div class="nav-icons">
+          <input type="text" id="search" placeholder="Srearch here..." />
+           <a href="#"> <i class="ri-search-2-line" onclick="check()"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100067293793249" target="_blank">
+            <i class="ri-facebook-circle-fill" ></i></a>          
+           <a href="#" ><i class="ri-twitter-line"></i></a>
+        </div>
+      </nav>
+      <br /><br /><br /><br />
+
+      <!-- Hero Section -->
+      <section id="home">
+        <div>
+          <!-- Add a compelling headline here -->
+          <h1>Welcome to Your Startup.</h1>
+          <!-- Add a brief description or call-to-action -->
+          <p></p>
+          <!-- Add a call-to-action button -->
+          <a href="#contact">Get Started</a>
+        </div>
+      </section>
+    </header>
+    <!-- About Section -->
+    <section id="about">
+      <div>
+        <!-- Add information about your startup and its mission -->
+
+        <h2>About Us</h2>
+        <p>
+          Introducing "Our Startup," where we combine innovation with passion!
+          We are an energetic and forward-looking company born from the
+          visionary minds of determined entrepreneurs. Our primary aim is to
+          revolutionize technology interactions and simplify people's lives
+          through groundbreaking solutions. <br /><br />
+          At "Our Startup," we take pride in staying ahead with cutting-edge
+          technology. By harnessing the latest advancements in artificial
+          intelligence, machine learning, and data analytics, we create
+          innovative products that leave a positive mark on society. Our
+          dedicated and skilled team is fully committed to pushing boundaries
+          and reshaping industries.
+          <br>
+          <img src="back1.jpg"></img>
+
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <br><br><br>
+      <div class="box">
+        <div class="service">
+          <div class="images">
+          <img src="d.jpg" />
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>
+            Digital marketing is a dynamic and continuously evolving approach
+            that leverages digital channels to connect with target audiences and
+            foster business growth.In today's fast-paced digital era, companies
+            of all sizes acknowledge the tremendous potential of digital
+            marketing in effectively reaching, engaging, and converting
+            customers.
+          </p>
+          <br>
+          <button type="submit">Go Now</button>
+        </div>
+        <div class="service">
+          <img src="web.jpg" />
+          <h3>Web Devlopement</h3>
+          <p>
+            Web development is the process of crafting, building, and
+            maintaining websites and web applications. It involves a blend of
+            technical expertise, programming languages, and creative flair to
+            deliver a smooth online user experience. Web developers utilize
+            diverse tools and technologies to construct websites tailored for
+            various purposes,including e-commerce,
+          </p>
+          <br>
+          <button type="submit">Go Now</button>
+        </div>
+        <div class="service">
+          <img src="gg.avif" />
+          <h3>Graphics Designing</h3>
+          <p>
+            Graphics designing is an artistic field centered on visual
+            communication. It involves utilizing digital tools and software to
+            craft visually engaging elements for diverse purposes. By skillfully
+            combining typography, imagery, colors, and design elements, graphic
+            designers create captivating logos, posters, advertisements, web
+            graphics, and more.
+          </p>
+          <br>
+          <button type="submit">Go Now</button>
+        </div>
+        <div class="service">
+          <img src="f.jpg" />
+          <h3>Freelancing</h3>
+          <p>
+            Freelancing is doing specific work for clients without committing to
+            full-time employment. Freelancers often take on multiple projects
+            with different clients simultaneously. The Internal Revenue Service
+            (IRS) considers freelancers to be self-employed individuals
+            Freelancers handl contract work on a part-time or full-time basis
+            and often sign agreements before starting projects.
+          </p>
+          <br>
+          <button type="submit">Go Now</button>
+        </div>
+        <div class="service">
+          <img src="ai.jpg" />
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Artificial Intelligence (AI) is a revolutionary technology that aims
+            to empower machines with human-like intelligence to perform various
+            tasks.It encompasses a wide range of methods and algorithms
+            designed to replicate cognitive functions, including learning,
+            reasoning, problem-solving, and decision-making.AI has made
+            significant progress in diverse areas,such as natural language
+            processing,and data analysis.
+          </p>
+          <br>
+          <button type="submit">Go Now</button>
+        </div>
+        <div class="service">
+          <img src="s.avif" />
+          <h3>Search Engine Optimization</h3>
+          <p>
+            SEO stands for search engine optimization. It’s a set of processes
+            aimed at improving your website’s visibility in search engines (such
+            as Google). All with the goal of getting more organic traffic.
+            Essentially, SEO is about fulfilling users’ search needs by creating
+            relevant, high-quality content and providing the best possible user
+            experience.the higher you rank, the more people will visit your page.
+            SEO plays a key role in improving your ranking positions.
+          </p>
+          <br>
+          <button type="submit">Go Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div>
+        <!-- Add a contact form or contact details -->
+        <h2>Contact Us</h2>
+        <p>Have a question or want to get started? Contact us!</p>
+        <form
+          action="mailto:contact@yourstartup.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2023 Your Startup. All Good rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
